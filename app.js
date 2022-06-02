@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(sanitizeMongo());
 
 // ROUTES
-
+app.get("/", (req, res) => res.send({ data: { healthStatus: "UP" } }));
 app.use("/api/people", peopleRouter);
 app.use("/api", giftsRouter);
 app.use("/auth", authRouter);

@@ -2,8 +2,5 @@
   "db": {
     "userName": "APP_DBUSER",
     "password": "APP_DBPASSWORD"
-  },
-  "jwt": {
-    "secretKey": "APP_JWTKEY"
   }
 }

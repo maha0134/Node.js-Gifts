@@ -1,0 +1,10 @@
+{
+  "db": {
+    "scheme": "mongodb+srv",
+    "username": "giftradmin",
+    "password": "4CoXlncD6cXQVwF0",
+    "host": "giftr.ljndum0.mongodb.net",
+    "authSource": "test",
+    "name": "mad9124-w21-p1-giftr"
+  }
+}
